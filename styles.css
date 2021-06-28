@@ -1,0 +1,55 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+body {
+  background-color: hsl(0, 0%, 95%);
+}
+
+.sedan {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.suv {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+}
+
+h1 {
+  font-family: 'Big Shoulders Display';
+  font-size: 36px;
+  color: hsl(0, 0%, 95%);
+}
+
+p {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.pill-button {
+  font-family: 'Lexend Deca', sans-serif;
+  background-color: hsl(0, 0%, 95%);
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 36px;
+}
+
+.sedan-btn {
+  color: hsl(31, 77%, 52%);
+}
+
+.suv-btn {
+  color: hsl(184, 100%, 22%);
+}
+
+.luxury-btn {
+  color: hsl(179, 100%, 13%);
+}
