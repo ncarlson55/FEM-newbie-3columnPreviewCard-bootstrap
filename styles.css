@@ -7,6 +7,8 @@ body {
 
 .sedan {
   background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
 }
 
 .suv {
@@ -15,6 +17,8 @@ body {
 
 .luxury {
   background-color: hsl(179, 100%, 13%);
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
 }
 
 h1 {
@@ -52,4 +56,37 @@ p {
 
 .luxury-btn {
   color: hsl(179, 100%, 13%);
+}
+
+.pill-button:hover {
+  background-color: transparent;
+  color: hsl(0, 0%, 95%);
+  border: 2px solid hsl(0, 0%, 95%);
+  margin: 0;
+}
+
+/* Viewport Medium and Smaller */
+@media only screen and (max-width: 800px) {
+  .cars {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    margin-bottom: 36px;
+  }
+  .sedan {
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 0;
+  }
+  .luxury {
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 0;
+  }
+  .pill-button:hover {
+    background-color: transparent;
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+    margin: 0;
+  }
+  
 }
