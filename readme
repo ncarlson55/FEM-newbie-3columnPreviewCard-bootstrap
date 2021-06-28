@@ -1,0 +1,27 @@
+# Frontend Mentor - 3-column preview card component solution
+
+This is a solution to the [3-column preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+
+## The challenge
+- View the optimal layout depending on their device's screen size
+- See hover states for interactive elements
+
+### Built with
+-Bootstrap
+
+### What I learned
+- Another rendition of the same project but used Bootstrap instead. Bootstrap made it extremely easy to set up the layout of the car cards, add all the margins and padding in the classes. 
+
+### Continued development
+- One thing I do not understand is keeping a fixed position of cards after hitting large viewports. Basically, I don't want to the cards to keep expanding in size after the medium viewport. Need to learn how to fix that problem. Another issue is rounding the corners of the cards but not being responsive. For example, the sedan car has rounded corners on the left side of the card. Bootstrap can do this but when responding to a smaller viewport, the left-side rounded corners do not dissappear and readjust to the top. 
+
+### Useful resources
+
+- [Boostrap](https://getbootstrap.com/) - I only used the Bootstrap Documentation.
+
+- [CSS Rounded Corners](https://www.w3schools.com/css/css3_borders.asp) - I had to use custom rounded corners instead of using Bootstrap. 
+
+## Author
+
+- Github - [Nico Carlson](https://github.com/ncarlson55)
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/ncarlson55)
